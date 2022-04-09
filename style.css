@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+  background: url(image/image6.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#motto{
+    font-family: "Beau Rivage";
+    font-size: 25px;
+    color: white;
+}
+header{
+    width: 85%;
+    margin: 0 auto;
+}
+header .container {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header .logo img{
+width: 50px;
+height: 50px;
+border-radius: 10px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  color: orange;
+}
+
+form.example input[type="text"] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 120px;
+  background: #f1f1f1;
+}
+form.example button {
+  width: 30px;
+  padding: 5px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+main .container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 680px;
+}
+main .container h1 {
+    color: #fff;
+    font-size: 50px;
+}
+main .container p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+}
+main .container button {
+    width: 100px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+.info{
+    color: rgb(255, 255, 255);
+    width: 90%;
+}
+.info1{
+    color: rgb(244, 165, 165);
+    width: 90%;
+}
+.info2{
+    color: rgb(244, 165, 165);
+    width: 45%;
+    margin-left: 10px;
+    margin-top: 7px;
+
+}
+.combine{
+    display: flex;
+}
+.about{
+    margin-left: 30px;
+}
+.about h3{
+    margin-top: 30px;
+    color: rgb(223, 208, 208);
+}
+.heading{
+    color: rgb(244, 165, 165);
+    margin-top: 10px;
+}
+#about{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    width: 120px;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+.hillier{
+    margin-top: 10px;
+}
+#gallery{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    width: 135px;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+#register{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    width: 160px;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.contain{
+    max-width: 1536px;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 282px;
+    background: #f2f2f2;
+}
+.gallery img{
+    width: 280px;
+    height: 300px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+div.main{
+    width: 500px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+div.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    padding: 40px 100px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(250, 100, 0, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.register #fmale{
+    margin-left: 40px;
+}
+label,span,.register h2{
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.message #contact{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    width: 150px;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+    margin-left: 30px; 
+}
+.message p{
+    margin-left: 30px;
+    color: white;
+    width: 90%;
+}
+.message img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.message a{
+    color:rgb(167, 131, 131);
+}
+.message a:hover{
+    color:red;
+}
+.message p img{
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+@media (max-width: 830px) {
+    header {
+        width: 100%;
+        padding: 0 10px;
+    }
+    form.example input[type="text"] {
+        width: 80px;
+    }
+    form.example button {
+        width: 25px;
+    }
+    .menu ul li:nth-child(2){
+        display: none;
+    }
+    .menu ul li:nth-child(4){
+        display: none;
+    }
+    #motto{
+        display: none;
+    }
+}
